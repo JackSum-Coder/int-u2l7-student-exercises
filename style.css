@@ -13,13 +13,18 @@
 /* 3. Recheck the ratio now. Afterwards, go to the HTML file.*/
 
 body {
-    background-color: #d93f3f;
+    background-color: #2b1f18;
     color: #eb2626;
 }
 
 
 .food-pic {
     width: 200px;
+}
+.food-pic:hover {
+    width: 230px;
+    border:#eb2626 solid 5px;
+    transition: width 0.5s;
 }
 
 .title {
